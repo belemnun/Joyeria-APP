@@ -132,7 +132,7 @@ public class UsuariosFragment extends Fragment {
 
                 // Aquí puedes enviar el nuevoUsuario a través de Retrofit para actualizarlo en la API
 
-                // Por ejemplo:
+
                 actualizarUsuario(nuevoUsuario);
                 limpiarCajasTexto();
 
@@ -150,9 +150,8 @@ public class UsuariosFragment extends Fragment {
                     id_usuarioEditText.requestFocus();
                     return;
                 }
-                // Aquí puedes enviar el ID del usuario a través de Retrofit para eliminarlo de la API
 
-                // Por ejemplo:
+
                 eliminarUsuario(nombre);
                 limpiarCajasTexto();
             }
@@ -270,7 +269,7 @@ public class UsuariosFragment extends Fragment {
                 if (response.isSuccessful()) {
                     // Producto encontrado
                     User user = response.body();
-                    // Aquí puedes manejar el producto obtenido, por ejemplo, mostrarlo en los EditText
+
                     if (user != null) {
                         nombreEditText.setText(user.getNombre());
                         apellidoEditText.setText(user.getApellido());
