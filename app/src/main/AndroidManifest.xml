@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Añadir permiso de Internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logosplash"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logosplash"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Joyeria_NunBelem"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".SidebarActivity"
+            android:exported="false"
+            android:label="@string/title_activity_sidebar"
+            android:theme="@style/Theme.Joyeria_NunBelem.NoActionBar" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"> <!-- Exported debe ser true porque es el punto de entrada -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- LoginActivity, suponiendo que se llama .login en tu proyecto -->
+        <activity
+            android:name=".login"
+            android:exported="true" />
+    </application>
+
+</manifest>

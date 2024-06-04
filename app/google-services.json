@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "666141442587",
+    "project_id": "joyeria-bely",
+    "storage_bucket": "joyeria-bely.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666141442587:android:6fb6c0f982e93aff506ebe",
+        "android_client_info": {
+          "package_name": "com.example.joyeria_nunbelem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyqLhfPAxEBm25khhFbYyxoSEkJJ0k6ek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

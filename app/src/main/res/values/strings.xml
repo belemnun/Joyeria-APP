@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Joyeria_NunBelem</string>
+    <string name="navigation_drawer_open">Abrir</string>
+    <string name="navigation_drawer_close">Cerrar</string>
+    <string name="title_activity_sidebar">SidebarActivity</string>
+    <string name="nav_header_title">Belem Nuñez</string>
+    <string name="nav_header_subtitle">belemnun18@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="menu_lista_productos">Lista de Productos</string>
+    <string name="menu_productos">Productos</string>
+    <string name="menu_categorias">Categorías</string>
+    <string name="menu_usuarios">Usuarios</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>
